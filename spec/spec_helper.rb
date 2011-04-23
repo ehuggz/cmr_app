@@ -1,7 +1,13 @@
 # This file is copied to ~/spec when you run 'ruby script/generate rspec'
 # from the project root directory.
+require 'rubygems'
+require 'spork'
+Spork.prefork do
+
 ENV["RAILS_ENV"] ||= 'test'
-require File.expand_path("../../config/environment", __FILE__)
+unless defined?(Rails)
+  require File.expand_path("../../config/environment", __FILE__)
+end
 require 'rspec/rails'
 
 # Requires supporting files with custom matchers and macros, etc,
@@ -24,4 +30,11 @@ RSpec.configure do |config|
   # examples within a transaction, comment the following line or assign false
   # instead of true.
   config.use_transactional_fixtures = true
+  ### Part of a Spork hack. See http://bit.ly/arY19y
+  # Emulate initializer set_clear_dependencies_hook in
+  #  railties/lib/rails/application/bootstrap.rb
+  ActiveSupport::Dependencies.clear
+ end
+end
+Spork.each_run do
 end
