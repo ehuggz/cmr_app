@@ -14,8 +14,8 @@ end
 group :test do
   gem 'rspec', '2.0.0.beta.18'
   gem 'spork', '0.8.4'
-  gem 'ZenTest', '4.5.0', :require => 'ZenTest'
-  gem 'redgreen'
+  gem 'ZenTest', '4.5.0'
+#  gem 'redgreen', '1.2.2'
 end
 
 # Use unicorn as the web server
