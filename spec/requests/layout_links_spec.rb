@@ -38,8 +38,8 @@ describe "LayoutLinks" do
     response.should have_selector('title', :content => "Sign up")
     click_link "Sign up"
     response.should have_selector('title', :content => "Sign up")
-    click_link "News"
-    response.should have_selector('title', :content => "Building Permit Data")
+#    click_link "News"
+#    response.should have_selector('title', :content => "Building Permit Data")
 #    click_link "Application Tutorial"
 #    response.should have_selector('title', :content => "Building Permit Data")
   end
