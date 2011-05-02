@@ -1,0 +1,313 @@
+[33m*[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[33m*[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[31mF[0m[31mF[0m[31mF[0m[31mF[0m[31mF[0m[32m.[0m[32m.[0m
+
+Finished in 0.91107 seconds
+[31m42 examples, 5 failures, 2 pending[0m
+
+Pending:
+[33m  UsersHelper add some examples to (or delete) /home/ehuggins/rails_projects/cmr_app/spec/helpers/users_helper_spec.rb[0m
+[90m    # Not Yet Implemented[0m
+[90m    # ./spec/helpers/users_helper_spec.rb:14[0m
+[33m  users/new.html.erb add some examples to (or delete) /home/ehuggins/rails_projects/cmr_app/spec/views/users/new.html.erb_spec.rb[0m
+[90m    # Not Yet Implemented[0m
+[90m    # ./spec/views/users/new.html.erb_spec.rb:4[0m
+
+1) UsersController Get 'show' should be successful
+    Failure/Error: get :show, :id => @user
+    [31mundefined method `email' for "michael Hartl":String[0m
+[90m    # ./app/helpers/users_helper.rb:3:in `gravatar_for'[0m
+[90m    # ./app/views/users/show.html.erb:2:in `_app_views_users_show_html_erb__829989170_83825100__928807861'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_view/template.rb:135:in `block in render'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/notifications.rb:52:in `block in instrument'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/notifications/instrumenter.rb:21:in `instrument'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/notifications.rb:52:in `instrument'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_view/template.rb:127:in `render'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_view/render/rendering.rb:59:in `block in _render_template'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/notifications.rb:52:in `block in instrument'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/notifications/instrumenter.rb:21:in `instrument'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/notifications.rb:52:in `instrument'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_view/render/rendering.rb:56:in `_render_template'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_view/render/rendering.rb:26:in `render'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/abstract_controller/rendering.rb:114:in `_render_template'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/abstract_controller/rendering.rb:108:in `render_to_body'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/renderers.rb:47:in `render_to_body'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/compatibility.rb:55:in `render_to_body'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/abstract_controller/rendering.rb:101:in `render_to_string'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/abstract_controller/rendering.rb:92:in `render'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/rendering.rb:17:in `render'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/core_ext/benchmark.rb:5:in `ms'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/instrumentation.rb:40:in `block in render'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activerecord-3.0.0/lib/active_record/railties/controller_runtime.rb:15:in `cleanup_view_runtime'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/instrumentation.rb:39:in `render'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/implicit_render.rb:10:in `default_render'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/implicit_render.rb:5:in `send_action'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/abstract_controller/base.rb:150:in `process_action'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/rendering.rb:11:in `process_action'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/abstract_controller/callbacks.rb:18:in `block in process_action'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/callbacks.rb:435:in `_run__238226917__process_action__362059075__callbacks'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/callbacks.rb:409:in `_run_process_action_callbacks'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/callbacks.rb:93:in `run_callbacks'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/abstract_controller/callbacks.rb:17:in `process_action'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/notifications.rb:52:in `block in instrument'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/notifications/instrumenter.rb:21:in `instrument'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/notifications.rb:52:in `instrument'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/instrumentation.rb:29:in `process_action'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/rescue.rb:17:in `process_action'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/abstract_controller/base.rb:119:in `process'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/abstract_controller/rendering.rb:40:in `process'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/testing.rb:12:in `process_with_new_base_test'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/test_case.rb:405:in `process'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/test_case.rb:343:in `get'[0m
+[90m    # ./spec/controllers/users_controller_spec.rb:11:in `block (3 levels) in <top (required)>'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/rspec-core-2.0.0.beta.18/lib/rspec/monkey/spork/test_framework/rspec.rb:4:in `run_tests'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/spork-0.8.4/lib/spork/run_strategy/forking.rb:13:in `block in run'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/spork-0.8.4/lib/spork/forker.rb:21:in `block in initialize'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/spork-0.8.4/lib/spork/forker.rb:18:in `fork'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/spork-0.8.4/lib/spork/forker.rb:18:in `initialize'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/spork-0.8.4/lib/spork/run_strategy/forking.rb:9:in `new'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/spork-0.8.4/lib/spork/run_strategy/forking.rb:9:in `run'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/spork-0.8.4/lib/spork/server.rb:47:in `run'[0m
+
+2) UsersController Get 'show' should find the right user
+    Failure/Error: get :show, :id => @user
+    [31mundefined method `email' for "michael Hartl":String[0m
+[90m    # ./app/helpers/users_helper.rb:3:in `gravatar_for'[0m
+[90m    # ./app/views/users/show.html.erb:2:in `_app_views_users_show_html_erb__829989170_83825100__928807861'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_view/template.rb:135:in `block in render'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/notifications.rb:52:in `block in instrument'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/notifications/instrumenter.rb:21:in `instrument'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/notifications.rb:52:in `instrument'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_view/template.rb:127:in `render'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_view/render/rendering.rb:59:in `block in _render_template'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/notifications.rb:52:in `block in instrument'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/notifications/instrumenter.rb:21:in `instrument'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/notifications.rb:52:in `instrument'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_view/render/rendering.rb:56:in `_render_template'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_view/render/rendering.rb:26:in `render'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/abstract_controller/rendering.rb:114:in `_render_template'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/abstract_controller/rendering.rb:108:in `render_to_body'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/renderers.rb:47:in `render_to_body'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/compatibility.rb:55:in `render_to_body'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/abstract_controller/rendering.rb:101:in `render_to_string'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/abstract_controller/rendering.rb:92:in `render'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/rendering.rb:17:in `render'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/core_ext/benchmark.rb:5:in `ms'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/instrumentation.rb:40:in `block in render'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activerecord-3.0.0/lib/active_record/railties/controller_runtime.rb:15:in `cleanup_view_runtime'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/instrumentation.rb:39:in `render'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/implicit_render.rb:10:in `default_render'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/implicit_render.rb:5:in `send_action'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/abstract_controller/base.rb:150:in `process_action'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/rendering.rb:11:in `process_action'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/abstract_controller/callbacks.rb:18:in `block in process_action'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/callbacks.rb:435:in `_run__238226917__process_action__362059075__callbacks'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/callbacks.rb:409:in `_run_process_action_callbacks'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/callbacks.rb:93:in `run_callbacks'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/abstract_controller/callbacks.rb:17:in `process_action'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/notifications.rb:52:in `block in instrument'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/notifications/instrumenter.rb:21:in `instrument'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/notifications.rb:52:in `instrument'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/instrumentation.rb:29:in `process_action'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/rescue.rb:17:in `process_action'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/abstract_controller/base.rb:119:in `process'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/abstract_controller/rendering.rb:40:in `process'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/testing.rb:12:in `process_with_new_base_test'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/test_case.rb:405:in `process'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/test_case.rb:343:in `get'[0m
+[90m    # ./spec/controllers/users_controller_spec.rb:16:in `block (3 levels) in <top (required)>'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/rspec-core-2.0.0.beta.18/lib/rspec/monkey/spork/test_framework/rspec.rb:4:in `run_tests'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/spork-0.8.4/lib/spork/run_strategy/forking.rb:13:in `block in run'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/spork-0.8.4/lib/spork/forker.rb:21:in `block in initialize'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/spork-0.8.4/lib/spork/forker.rb:18:in `fork'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/spork-0.8.4/lib/spork/forker.rb:18:in `initialize'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/spork-0.8.4/lib/spork/run_strategy/forking.rb:9:in `new'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/spork-0.8.4/lib/spork/run_strategy/forking.rb:9:in `run'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/spork-0.8.4/lib/spork/server.rb:47:in `run'[0m
+
+3) UsersController Get 'show' should have the right title
+    Failure/Error: get :show, :id => @user
+    [31mundefined method `email' for "michael Hartl":String[0m
+[90m    # ./app/helpers/users_helper.rb:3:in `gravatar_for'[0m
+[90m    # ./app/views/users/show.html.erb:2:in `_app_views_users_show_html_erb__829989170_83825100__928807861'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_view/template.rb:135:in `block in render'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/notifications.rb:52:in `block in instrument'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/notifications/instrumenter.rb:21:in `instrument'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/notifications.rb:52:in `instrument'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_view/template.rb:127:in `render'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_view/render/rendering.rb:59:in `block in _render_template'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/notifications.rb:52:in `block in instrument'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/notifications/instrumenter.rb:21:in `instrument'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/notifications.rb:52:in `instrument'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_view/render/rendering.rb:56:in `_render_template'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_view/render/rendering.rb:26:in `render'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/abstract_controller/rendering.rb:114:in `_render_template'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/abstract_controller/rendering.rb:108:in `render_to_body'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/renderers.rb:47:in `render_to_body'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/compatibility.rb:55:in `render_to_body'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/abstract_controller/rendering.rb:101:in `render_to_string'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/abstract_controller/rendering.rb:92:in `render'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/rendering.rb:17:in `render'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/core_ext/benchmark.rb:5:in `ms'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/instrumentation.rb:40:in `block in render'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activerecord-3.0.0/lib/active_record/railties/controller_runtime.rb:15:in `cleanup_view_runtime'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/instrumentation.rb:39:in `render'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/implicit_render.rb:10:in `default_render'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/implicit_render.rb:5:in `send_action'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/abstract_controller/base.rb:150:in `process_action'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/rendering.rb:11:in `process_action'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/abstract_controller/callbacks.rb:18:in `block in process_action'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/callbacks.rb:435:in `_run__238226917__process_action__362059075__callbacks'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/callbacks.rb:409:in `_run_process_action_callbacks'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/callbacks.rb:93:in `run_callbacks'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/abstract_controller/callbacks.rb:17:in `process_action'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/notifications.rb:52:in `block in instrument'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/notifications/instrumenter.rb:21:in `instrument'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/notifications.rb:52:in `instrument'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/instrumentation.rb:29:in `process_action'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/rescue.rb:17:in `process_action'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/abstract_controller/base.rb:119:in `process'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/abstract_controller/rendering.rb:40:in `process'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/testing.rb:12:in `process_with_new_base_test'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/test_case.rb:405:in `process'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/test_case.rb:343:in `get'[0m
+[90m    # ./spec/controllers/users_controller_spec.rb:20:in `block (3 levels) in <top (required)>'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/rspec-core-2.0.0.beta.18/lib/rspec/monkey/spork/test_framework/rspec.rb:4:in `run_tests'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/spork-0.8.4/lib/spork/run_strategy/forking.rb:13:in `block in run'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/spork-0.8.4/lib/spork/forker.rb:21:in `block in initialize'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/spork-0.8.4/lib/spork/forker.rb:18:in `fork'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/spork-0.8.4/lib/spork/forker.rb:18:in `initialize'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/spork-0.8.4/lib/spork/run_strategy/forking.rb:9:in `new'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/spork-0.8.4/lib/spork/run_strategy/forking.rb:9:in `run'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/spork-0.8.4/lib/spork/server.rb:47:in `run'[0m
+
+4) UsersController Get 'show' should include the user's name
+    Failure/Error: get :show, :id => @user
+    [31mundefined method `email' for "michael Hartl":String[0m
+[90m    # ./app/helpers/users_helper.rb:3:in `gravatar_for'[0m
+[90m    # ./app/views/users/show.html.erb:2:in `_app_views_users_show_html_erb__829989170_83825100__928807861'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_view/template.rb:135:in `block in render'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/notifications.rb:52:in `block in instrument'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/notifications/instrumenter.rb:21:in `instrument'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/notifications.rb:52:in `instrument'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_view/template.rb:127:in `render'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_view/render/rendering.rb:59:in `block in _render_template'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/notifications.rb:52:in `block in instrument'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/notifications/instrumenter.rb:21:in `instrument'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/notifications.rb:52:in `instrument'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_view/render/rendering.rb:56:in `_render_template'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_view/render/rendering.rb:26:in `render'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/abstract_controller/rendering.rb:114:in `_render_template'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/abstract_controller/rendering.rb:108:in `render_to_body'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/renderers.rb:47:in `render_to_body'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/compatibility.rb:55:in `render_to_body'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/abstract_controller/rendering.rb:101:in `render_to_string'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/abstract_controller/rendering.rb:92:in `render'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/rendering.rb:17:in `render'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/core_ext/benchmark.rb:5:in `ms'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/instrumentation.rb:40:in `block in render'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activerecord-3.0.0/lib/active_record/railties/controller_runtime.rb:15:in `cleanup_view_runtime'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/instrumentation.rb:39:in `render'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/implicit_render.rb:10:in `default_render'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/implicit_render.rb:5:in `send_action'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/abstract_controller/base.rb:150:in `process_action'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/rendering.rb:11:in `process_action'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/abstract_controller/callbacks.rb:18:in `block in process_action'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/callbacks.rb:435:in `_run__238226917__process_action__362059075__callbacks'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/callbacks.rb:409:in `_run_process_action_callbacks'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/callbacks.rb:93:in `run_callbacks'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/abstract_controller/callbacks.rb:17:in `process_action'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/notifications.rb:52:in `block in instrument'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/notifications/instrumenter.rb:21:in `instrument'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/notifications.rb:52:in `instrument'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/instrumentation.rb:29:in `process_action'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/rescue.rb:17:in `process_action'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/abstract_controller/base.rb:119:in `process'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/abstract_controller/rendering.rb:40:in `process'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/testing.rb:12:in `process_with_new_base_test'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/test_case.rb:405:in `process'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/test_case.rb:343:in `get'[0m
+[90m    # ./spec/controllers/users_controller_spec.rb:24:in `block (3 levels) in <top (required)>'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/rspec-core-2.0.0.beta.18/lib/rspec/monkey/spork/test_framework/rspec.rb:4:in `run_tests'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/spork-0.8.4/lib/spork/run_strategy/forking.rb:13:in `block in run'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/spork-0.8.4/lib/spork/forker.rb:21:in `block in initialize'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/spork-0.8.4/lib/spork/forker.rb:18:in `fork'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/spork-0.8.4/lib/spork/forker.rb:18:in `initialize'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/spork-0.8.4/lib/spork/run_strategy/forking.rb:9:in `new'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/spork-0.8.4/lib/spork/run_strategy/forking.rb:9:in `run'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/spork-0.8.4/lib/spork/server.rb:47:in `run'[0m
+
+5) UsersController Get 'show' should have a profile image
+    Failure/Error: get :show, :id => @user
+    [31mundefined method `email' for "michael Hartl":String[0m
+[90m    # ./app/helpers/users_helper.rb:3:in `gravatar_for'[0m
+[90m    # ./app/views/users/show.html.erb:2:in `_app_views_users_show_html_erb__829989170_83825100__928807861'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_view/template.rb:135:in `block in render'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/notifications.rb:52:in `block in instrument'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/notifications/instrumenter.rb:21:in `instrument'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/notifications.rb:52:in `instrument'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_view/template.rb:127:in `render'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_view/render/rendering.rb:59:in `block in _render_template'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/notifications.rb:52:in `block in instrument'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/notifications/instrumenter.rb:21:in `instrument'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/notifications.rb:52:in `instrument'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_view/render/rendering.rb:56:in `_render_template'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_view/render/rendering.rb:26:in `render'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/abstract_controller/rendering.rb:114:in `_render_template'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/abstract_controller/rendering.rb:108:in `render_to_body'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/renderers.rb:47:in `render_to_body'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/compatibility.rb:55:in `render_to_body'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/abstract_controller/rendering.rb:101:in `render_to_string'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/abstract_controller/rendering.rb:92:in `render'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/rendering.rb:17:in `render'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/core_ext/benchmark.rb:5:in `ms'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/instrumentation.rb:40:in `block in render'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activerecord-3.0.0/lib/active_record/railties/controller_runtime.rb:15:in `cleanup_view_runtime'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/instrumentation.rb:39:in `render'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/implicit_render.rb:10:in `default_render'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/implicit_render.rb:5:in `send_action'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/abstract_controller/base.rb:150:in `process_action'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/rendering.rb:11:in `process_action'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/abstract_controller/callbacks.rb:18:in `block in process_action'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/callbacks.rb:435:in `_run__238226917__process_action__362059075__callbacks'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/callbacks.rb:409:in `_run_process_action_callbacks'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/callbacks.rb:93:in `run_callbacks'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/abstract_controller/callbacks.rb:17:in `process_action'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/notifications.rb:52:in `block in instrument'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/notifications/instrumenter.rb:21:in `instrument'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/activesupport-3.0.0/lib/active_support/notifications.rb:52:in `instrument'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/instrumentation.rb:29:in `process_action'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/rescue.rb:17:in `process_action'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/abstract_controller/base.rb:119:in `process'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/abstract_controller/rendering.rb:40:in `process'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/metal/testing.rb:12:in `process_with_new_base_test'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/test_case.rb:405:in `process'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/actionpack-3.0.0/lib/action_controller/test_case.rb:343:in `get'[0m
+[90m    # ./spec/controllers/users_controller_spec.rb:28:in `block (3 levels) in <top (required)>'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/rspec-core-2.0.0.beta.18/lib/rspec/monkey/spork/test_framework/rspec.rb:4:in `run_tests'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/spork-0.8.4/lib/spork/run_strategy/forking.rb:13:in `block in run'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/spork-0.8.4/lib/spork/forker.rb:21:in `block in initialize'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/spork-0.8.4/lib/spork/forker.rb:18:in `fork'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/spork-0.8.4/lib/spork/forker.rb:18:in `initialize'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/spork-0.8.4/lib/spork/run_strategy/forking.rb:9:in `new'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/spork-0.8.4/lib/spork/run_strategy/forking.rb:9:in `run'[0m
+[90m    # /home/ehuggins/.rvm/gems/ruby-1.9.2-p180@cmr_app/gems/spork-0.8.4/lib/spork/server.rb:47:in `run'[0m
+
